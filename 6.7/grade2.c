@@ -25,7 +25,7 @@ int main()
         {
             sum += s[j].grade[i];
         }
-        ave[i] = sum / 3.0;
+        ave[i] = sum / N;
         printf("%.2lf ", ave[i]);
         sum = 0;
     }
